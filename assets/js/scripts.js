@@ -28,12 +28,12 @@ jQuery(function ($) {
     /* ---------------------------------------------- /*
      * Preloader
     
+	/* ---------------------------------------------- */
 
     $(window).ready(function() {
         $('#pre-status').fadeOut();
         $('#tt-preloader').delay(350).fadeOut('slow');
     });
-	/* ---------------------------------------------- */
 
 
 
@@ -277,7 +277,7 @@ jQuery(function ($) {
     // -------------------------------------------------------------
 
     (function () {
-        var myLatlng = new google.maps.LatLng(41.372641, -74.687387);
+        var myLatlng = new google.maps.LatLng(12.9195515, 80.2296902);
 
             var styles = [
                 {
